@@ -40,7 +40,7 @@ horizontalAlignment = Alignment.CenterHorizontally,
 
         Text(
             text =
-                    "Feliz dias do programador",
+                    "Feliz dias do programador ",
             fontSize = 70.sp,
             textAlign = TextAlign.Center
 
