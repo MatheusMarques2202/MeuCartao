@@ -74,7 +74,7 @@ fun textoCartao() {
                 modifier = Modifier.padding(top = 150.dp)
 
             )
-            Dedicatorio(nomes = "de prof")
+            Dedicatorio(nomes = "de prof ")
             Dedicatorio(nomes = "para matheus")
             
 
