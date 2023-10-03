@@ -70,7 +70,7 @@ fun textoCartao() {
                 fontWeight = FontWeight.Black,
                 fontFamily = FontFamily.Cursive,
                 color = Color.White,
-                lineHeight = 116.sp,
+                lineHeight = 100.sp,
                 modifier = Modifier.padding(top = 150.dp)
 
             )
@@ -87,13 +87,13 @@ fun textoCartao() {
 fun Dedicatorio(nomes:String){
     Text(
         text = nomes,
-        fontSize = 30.sp,
+        fontSize = 40.sp,
         fontFamily = FontFamily.Cursive,
         color = Color.Black,
         modifier = Modifier
             .fillMaxWidth()
             .padding(start = 20.dp, bottom = 30.dp),
-        textAlign = TextAlign.Start,
+
 
         )
     
