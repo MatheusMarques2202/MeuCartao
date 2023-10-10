@@ -58,7 +58,7 @@ fun textoCartao() {
 
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.SpaceBetween,
+            verticalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxSize()
         ) {
 
@@ -74,8 +74,8 @@ fun textoCartao() {
                 modifier = Modifier.padding(top = 150.dp)
 
             )
-            Dedicatorio(nomes = "de prof ")
-            Dedicatorio(nomes = "para matheus")
+            Dedicatoria(nomes = "de prof ")
+            Dedicatoria(nomes = "para matheus")
             
 
 
@@ -84,7 +84,7 @@ fun textoCartao() {
 }
 
 @Composable
-fun Dedicatorio(nomes:String){
+fun Dedicatoria(nomes:String){
     Text(
         text = nomes,
         fontSize = 40.sp,
@@ -92,8 +92,7 @@ fun Dedicatorio(nomes:String){
         color = Color.Black,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 20.dp, bottom = 30.dp),
-
+            .padding(start = 20.dp, bottom = 10.dp),
 
         )
     
