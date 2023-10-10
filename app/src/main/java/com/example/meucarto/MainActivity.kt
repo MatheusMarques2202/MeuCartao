@@ -58,7 +58,7 @@ fun textoCartao() {
 
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
+            verticalArrangement = Arrangement.SpaceBetween,
             modifier = Modifier.fillMaxSize()
         ) {
 
@@ -74,8 +74,11 @@ fun textoCartao() {
                 modifier = Modifier.padding(top = 150.dp)
 
             )
-            Dedicatoria(nomes = "de prof ")
-            Dedicatoria(nomes = " para matheus ")
+            Column {
+                Dedicatoria(nomes = "de prof ")
+                Dedicatoria(nomes = " para matheus ")
+            }
+
             
 
 
