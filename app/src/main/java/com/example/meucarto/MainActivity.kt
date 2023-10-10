@@ -75,7 +75,7 @@ fun textoCartao() {
 
             )
             Dedicatoria(nomes = "de prof ")
-            Dedicatoria(nomes = "para matheus")
+            Dedicatoria(nomes = "para matheus ")
             
 
 
